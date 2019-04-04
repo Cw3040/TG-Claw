@@ -32493,10 +32493,6 @@
 "vrk" = (
 /turf/closed/wall/r_wall,
 /area/f13/powerplant)
-"vtY" = (
-/obj/effect/landmark/start/f13/ncrdoctor,
-/turf/open/floor/plasteel/cafeteria,
-/area/f13/ncr_main)
 "vGt" = (
 /turf/open/floor/wood/f13,
 /area/f13/desert)
@@ -32519,6 +32515,10 @@
 "wGI" = (
 /obj/item/cultivator,
 /turf/open/floor/plating/f13/outside/desert,
+/area/f13/ncr_main)
+"xQQ" = (
+/obj/effect/landmark/start/f13/ncrdoctor,
+/turf/open/floor/plasteel/cafeteria,
 /area/f13/ncr_main)
 "xTK" = (
 /obj/structure/window/fulltile/wood_window,
@@ -34862,7 +34862,7 @@ bqK
 boq
 brd
 bro
-vtY
+xQQ
 brP
 bro
 bsy
