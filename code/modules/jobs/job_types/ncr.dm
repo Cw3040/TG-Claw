@@ -159,8 +159,39 @@ Lieutenant
 		/obj/item/storage/bag/money/small/ncrofficers)
 	box = null
 
+/*
+Doctor
+*/
+/datum/job/ncr/f13ncrdoc
+	title = "NCR Doctor"
+	flag = F13NCRDOCTOR
+	faction = "NCR"
+	total_positions = 2
+	spawn_positions = 1
+	forbids = "The NCR forbids: Drugs (except for med-X), Drinking, Gambling, and sex on duty."
+	enforces = "The NCR expects: Obeying the lawful orders of superiors. Proper treatment of prisoners.  Good conduct within the Republics laws. Wearing the uniform. NCR doctors are expected to be available at any reasonable time in case of injury."
+	description = "You answer to your commanding officer, the Captain."
+	supervisors = "the captain"
+	selection_color = "#fff5cc"
+	exp_requirements = 1200
 
+	outfit = /datum/outfit/job/ncr/f13ncrdoc
 
+/datum/outfit/job/ncr/f13ncrdoc
+	name		= "NCR Doctor"
+	jobtype		= /datum/job/ncr/f13ncrdoc
+	uniform		= /obj/item/clothing/under/f13/ncr/officer
+	accessory	= /obj/item/clothing/accessory/ncr/LT
+	suit 		= /obj/item/clothing/suit/armor/f13/ncrarmor/mantle
+	head 		= /obj/item/clothing/head/beret/ncr
+	gloves 		= /obj/item/clothing/gloves/color/latex/nitrile
+	glasses 	= /obj/item/clothing/glasses/sunglasses/big
+	backpack_contents = list(
+		/obj/item/gun/ballistic/automatic/pistol/ninemil=1, \
+		/obj/item/ammo_box/magazine/pistolm9mm=1, \
+		/obj/item/storage/firstaid/f13=1, \
+		/obj/item/storage/bag/money/small/ncrofficers)
+	box = null
 
 /*
 Trooper

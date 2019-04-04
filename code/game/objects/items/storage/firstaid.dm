@@ -52,6 +52,21 @@
 	new /obj/item/stack/medical/ointment(src)
 	new /obj/item/stack/medical/ointment(src)
 
+/obj/item/storage/firstaid/f13
+	name = "NCR First Aid Kit"
+	desc = "A first aid kit with the ability to heal common types of injuries."
+
+/obj/item/storage/firstaid/f13/PopulateContents()
+	if(empty)
+		return
+	new /obj/item/healthanalyzer(src)
+	new /obj/item/stack/medical/gauze(src)
+	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
+	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
+	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
+	new /obj/item/reagent_containers/syringe/medx(src)
+	new /obj/item/reagent_containers/syringe/medx(src)
+
 /obj/item/storage/firstaid/fire
 	name = "burn treatment kit"
 	desc = "A specialized medical kit for when the toxins lab <i>-spontaneously-</i> burns down."

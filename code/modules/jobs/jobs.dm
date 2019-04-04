@@ -37,6 +37,7 @@ GLOBAL_LIST_INIT(legion_positions, list(
 GLOBAL_LIST_INIT(ncr_positions, list(
 	"NCR Captain",
 	"NCR Lieutenant",
+	"NCR Doctor",
 	"NCR Sergeant",
 	"NCR Trooper",
 	"NCR Recruit",

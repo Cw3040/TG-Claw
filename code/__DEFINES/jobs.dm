@@ -57,6 +57,7 @@
 #define F13VETRANGER	(1<<6)
 #define F13RANGER		(1<<7)
 #define F13RECRANGER	(1<<8)
+#define F13NCRDOCTOR	(1<<9)
 
 #define LEGION			(1<<4)
 
